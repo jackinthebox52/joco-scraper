@@ -36,15 +36,23 @@ def crawlRecent():
     view_btn = driver.find_element(By.CLASS_NAME, 'btn-primary')
     view_btn.click()
     """
+    done = 0
     for i, e in enumerate(driver.find_elements(By.CLASS_NAME, 'fa-arrow-right')): #Enumerate is preferred because it allows us to track the index in-line
-        sleep(.2)
-        elem = driver.find_elements(By.CLASS_NAME, 'fa-arrow-right')[i]
-        elem.click()
+        retry = True
+        while(retry): #Hacky way to wait until the arrow elements fully load
+            try:
+                elem = driver.find_elements(By.CLASS_NAME, 'fa-arrow-right')[i]
+                elem.click()
+                retry = False
+            except:
+                break
         details = getDetails()
         for entry in details:
-            writeEntry(entry) #Write entry to databse
+            writeEntry(entry) #Write entry to postgres database
         #captcha = solveCaptcha(cause_num)
         driver.back()
+        done += 1
+    print(f'Successfully added/updated records for: {done} people.')
 
 
 def writeEntry(e):
@@ -58,6 +66,7 @@ def writeEntry(e):
             DO NOTHING;''')
         db_conn.commit()
         print('Records created successfully: ' + e['id'])
+
 
 def solveCaptcha(link):
     #TODO truly solve the captcha
@@ -92,6 +101,8 @@ def getDetails():
             else:
                 released = datetime.datetime.strptime(released, "%m/%d/%Y %I:%M:%S %p")
             bond = driver.find_element(By.XPATH, f'/html/body/div/div[2]/div/div[{i+2}]/div/div/div[2]/table/tbody/tr[4]/td[3]').text.strip('$').replace(',', '')
+            if 'display' in bond:
+                bond = 0.00
             housed = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div/div/table/tbody/tr[3]/td[2]').text.replace("\'", "")
             age = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div/div/table/tbody/tr[3]/td[3]').text
             charge_type = driver.find_element(By.XPATH, f'/html/body/div/div[2]/div/div[{i+2}]/div/div/div[2]/table/tbody/tr[2]/td[3]').text
