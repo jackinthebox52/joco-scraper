@@ -12,6 +12,7 @@ PSQLPASS = os.environ['PSQLPASS']
 PSQLHOST = os.environ['PSQLHOST']
 PSQLDB = os.environ['PSQLDB']
 PSQLPORT = os.environ['PSQLPORT']
+
 driver = webdriver.Firefox()
 reader = easyocr.Reader(['en'])
 db_conn = None
@@ -35,27 +36,28 @@ def crawlRecent():
     view_btn = driver.find_element(By.CLASS_NAME, 'btn-primary')
     view_btn.click()
     """
-    for i, e in enumerate(driver.find_elements(By.CLASS_NAME, 'fa-arrow-right')):
+    for i, e in enumerate(driver.find_elements(By.CLASS_NAME, 'fa-arrow-right')): #Enumerate is preferred because it allows us to track the index in-line
+        sleep(.2)
         elem = driver.find_elements(By.CLASS_NAME, 'fa-arrow-right')[i]
         elem.click()
         details = getDetails()
-        writeEntry(details) #Write entry to databse
+        for entry in details:
+            writeEntry(entry) #Write entry to databse
         #captcha = solveCaptcha(cause_num)
         driver.back()
-        sleep(.20) #TODO thereis a better way to do this
 
 
-def writeEntry(details):
-    cur = db_conn.cursor()
-    if(details):
+def writeEntry(e):
+    if(e):
+        cur = db_conn.cursor()
         #print(id, link, offense, fname, lname, booked, released, bond, housed, age, charge_type)
         cur.execute(f'''INSERT INTO ENTRIES(ID,LINK,OFFENSE,FNAME,LNAME,BOOKED,RELEASED,BOND,HOUSED,AGE,CHARGE_TYPE) \
-            VALUES('{details['id']}', '{details['link']}', '{details['offense']}', '{details['fname']}', '{details['lname']}', '{details['booked']}',  \
-            '{details['released']}', {details['bond']}, '{details['housed']}', {details['age']}, '{details['charge_type']}') \
+            VALUES('{e['id']}', '{e['link']}', '{e['offense']}', '{e['fname']}', '{e['lname']}', '{e['booked']}',  \
+            '{e['released']}', {e['bond']}, '{e['housed']}', {e['age']}, '{e['charge_type']}') \
             ON CONFLICT (ID) \
             DO NOTHING;''')
-    db_conn.commit()
-    print('Records created successfully')
+        db_conn.commit()
+        print('Records created successfully: ' + e['id'])
 
 def solveCaptcha(link):
     #TODO truly solve the captcha
@@ -74,32 +76,34 @@ def solveCaptcha(link):
 
 def getDetails():
     entries = []
-    try:
-        id = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[2]/div/div/div[2]/table/tbody/tr[4]/td[1]').text
-        link = driver.current_url.split('/')[6]
-        name = driver.find_element(By.XPATH, '/html/body/div/div[2]/h4').text.split('for ')[1].split('.')[0]
-        lname, fname = name.split(', ')
-        offense = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[2]/div/div/div[2]/table/tbody/tr[2]/td[1]').text
-        offense = re.sub(r'[^a-zA-Z0-9 ]', '', offense)
-        booked = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div/div/table/tbody/tr[3]/td[1]').text
-        released = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[2]/div/div/div[2]/table/tbody/tr[4]/td[4]').text
-        booked = datetime.datetime.strptime(booked, "%m/%d/%Y %I:%M:%S %p")
-        if released == 'still active':
-            released = datetime.datetime.strptime('1/01/1990 1:00:01 AM', "%m/%d/%Y %I:%M:%S %p")
-        else:
-            released = datetime.datetime.strptime(released, "%m/%d/%Y %I:%M:%S %p")
-        bond = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[2]/div/div/div[2]/table/tbody/tr[4]/td[3]').text.strip('$').replace(',', '')
-        housed = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div/div/table/tbody/tr[3]/td[2]').text.replace("\'", "")
-        age = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div/div/table/tbody/tr[3]/td[3]').text
-        charge_type = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[2]/div/div/div[2]/table/tbody/tr[2]/td[3]').text
-        return {'id': id, 'link': link, 'offense': offense, 
-                'fname': fname, 'lname': lname, 'booked': booked, 
-                'released': released, 'bond': bond, 'housed': housed, 
-                'age': age, 'charge_type': charge_type  }
-    except:
-        print('Encountered empty page. TODO allow returning null values')
-        return None
-    
+    for i, e in enumerate(driver.find_elements(By.CLASS_NAME, 'card-body')):
+        try:
+            id = driver.find_element(By.XPATH, f'/html/body/div/div[2]/div/div[{i+2}]/div/div/div[2]/table/tbody/tr[4]/td[1]').text
+            link = driver.current_url.split('/')[6]
+            name = driver.find_element(By.XPATH, '/html/body/div/div[2]/h4').text.split('for ')[1].split('.')[0]
+            lname, fname = name.split(', ')
+            offense = driver.find_element(By.XPATH, f'/html/body/div/div[2]/div/div[{i+2}]/div/div/div[2]/table/tbody/tr[2]/td[1]').text
+            offense = re.sub(r'[^a-zA-Z0-9 ]', '', offense)
+            booked = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div/div/table/tbody/tr[3]/td[1]').text
+            released = driver.find_element(By.XPATH, f'/html/body/div/div[2]/div/div[{i+2}]/div/div/div[2]/table/tbody/tr[4]/td[4]').text
+            booked = datetime.datetime.strptime(booked, "%m/%d/%Y %I:%M:%S %p")
+            if released == 'still active':
+                released = datetime.datetime.strptime('1/01/1990 1:00:01 AM', "%m/%d/%Y %I:%M:%S %p")
+            else:
+                released = datetime.datetime.strptime(released, "%m/%d/%Y %I:%M:%S %p")
+            bond = driver.find_element(By.XPATH, f'/html/body/div/div[2]/div/div[{i+2}]/div/div/div[2]/table/tbody/tr[4]/td[3]').text.strip('$').replace(',', '')
+            housed = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div/div/table/tbody/tr[3]/td[2]').text.replace("\'", "")
+            age = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div/div/table/tbody/tr[3]/td[3]').text
+            charge_type = driver.find_element(By.XPATH, f'/html/body/div/div[2]/div/div[{i+2}]/div/div/div[2]/table/tbody/tr[2]/td[3]').text
+            entries.append({'id': id, 'link': link, 'offense': offense, 
+                    'fname': fname, 'lname': lname, 'booked': booked, 
+                    'released': released, 'bond': bond, 'housed': housed, 
+                    'age': age, 'charge_type': charge_type  })
+        except Exception as e:
+            print(e)
+            print('Encountered empty page. TODO: allow returning null values')
+            entries.append(None)
+    return entries
 
 
 if __name__ == '__main__':
