@@ -49,7 +49,7 @@ def crawlRecent():
         details = getDetails()
         for entry in details:
             writeEntry(entry) #Write entry to postgres database
-        #captcha = solveCaptcha(cause_num)
+        captcha = solveCaptcha(entry['link'])
         driver.back()
         done += 1
     print(f'Successfully added/updated records for: {done} people.')
