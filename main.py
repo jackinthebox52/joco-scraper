@@ -39,6 +39,7 @@ def crawlRecent():
     done = 0
     for i, e in enumerate(driver.find_elements(By.CLASS_NAME, 'fa-arrow-right')): #Enumerate is preferred because it allows us to track the index in-line
         retry = True
+
         while(retry): #Hacky way to wait until the arrow elements fully load
             try:
                 elem = driver.find_elements(By.CLASS_NAME, 'fa-arrow-right')[i]
@@ -46,12 +47,17 @@ def crawlRecent():
                 retry = False
             except:
                 break
-        details = getDetails()
-        for entry in details:
-            writeEntry(entry) #Write entry to postgres database
-        captcha = solveCaptcha(entry['link'])
-        driver.back()
-        done += 1
+            details = getDetails()
+            captcha = solveCaptcha(i)
+            for entry in details:
+                if entry:
+                    writeEntry(entry) #Write entry to postgres database
+            done += 1
+        else: 
+            pass
+        while(driver.current_url != 'https://ww1.johnsoncountyiowa.gov/Sheriff/jailroster/list'):
+            print(driver.current_url)
+            driver.back()
     print(f'Successfully added/updated records for: {done} people.')
 
 
@@ -68,19 +74,21 @@ def writeEntry(e):
         print('Records created successfully: ' + e['id'])
 
 
-def solveCaptcha(link):
+def solveCaptcha(index):
     #TODO truly solve the captcha
     view_btn = driver.find_element(By.NAME, 'viewphoto')
     view_btn.click()
+
+    sleep(0.2)
     img_base64 = driver.find_element(By.XPATH, '/html/body/div/div[2]/div/div[1]/div/div/div/table/tbody/tr[3]/td[4]/img').get_attribute('src').split('base64,')[1]
     img_64_decode = base64.b64decode(img_base64)
-    image_result = open(f'cap/{link}.png', 'wb') # create a writable image and write the decoding result
+    image_result = open(f'cap/{index}.png', 'wb') # create a writable image and write the decoding result
     image_result.write(img_64_decode)
     image_result.close()
     image = Image.open(io.BytesIO(img_64_decode))
     image_np = np.array(image)
     captcha_text = reader.readtext(image_np)
-    print('Captcha: ' + captcha_text)
+    print(captcha_text)
     return captcha_text
 
 def getDetails():

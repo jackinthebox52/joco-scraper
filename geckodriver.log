@@ -65,3 +65,411 @@ Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
 1661545343858	Marionette	INFO	Stopped listening on port 37753
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661545377788	geckodriver	INFO	Listening on 127.0.0.1:37495
+1661545378293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52015" "-no-remote" "-profile" "/tmp/rust_mozprofilecCw3ec"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661545378797	Marionette	INFO	Marionette enabled
+1661545378800	Marionette	INFO	Listening on port 35471
+WebDriver BiDi listening on ws://localhost:52015
+1661545378998	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecCw3ec/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:52015/devtools/browser/a9ea97e3-50bd-4799-9735-68210fe42098
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661545415402	Marionette	INFO	Stopped listening on port 35471
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661545418523	geckodriver	INFO	Listening on 127.0.0.1:49469
+1661545418527	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54859" "-no-remote" "-profile" "/tmp/rust_mozprofileRESBs0"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661545418969	Marionette	INFO	Marionette enabled
+1661545418972	Marionette	INFO	Listening on port 33145
+WebDriver BiDi listening on ws://localhost:54859
+1661545419124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRESBs0/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:54859/devtools/browser/43f1cb88-b36b-44c3-b691-c8ce00857dc6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661545458346	Marionette	INFO	Stopped listening on port 33145
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661545462583	geckodriver	INFO	Listening on 127.0.0.1:33677
+1661545463088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50793" "-no-remote" "-profile" "/tmp/rust_mozprofiletPvV5n"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661545463586	Marionette	INFO	Marionette enabled
+1661545463588	Marionette	INFO	Listening on port 46457
+WebDriver BiDi listening on ws://localhost:50793
+1661545463672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletPvV5n/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50793/devtools/browser/805b50f8-1985-46f8-b9ce-e8756b7d34c0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661545487233	Marionette	INFO	Stopped listening on port 46457
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661545574214	geckodriver	INFO	Listening on 127.0.0.1:58959
+1661545574718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55553" "-no-remote" "-profile" "/tmp/rust_mozprofileJhaNhO"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661545575229	Marionette	INFO	Marionette enabled
+1661545575232	Marionette	INFO	Listening on port 43699
+WebDriver BiDi listening on ws://localhost:55553
+1661545575437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJhaNhO/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:55553/devtools/browser/d233643f-4c0c-4cf5-b92b-b53561dab2b3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661545597566	Marionette	INFO	Stopped listening on port 43699
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661545613262	geckodriver	INFO	Listening on 127.0.0.1:39993
+1661545613266	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44307" "-no-remote" "-profile" "/tmp/rust_mozprofilenAkBZE"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661545613762	Marionette	INFO	Marionette enabled
+1661545613764	Marionette	INFO	Listening on port 36933
+WebDriver BiDi listening on ws://localhost:44307
+1661545613851	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenAkBZE/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:44307/devtools/browser/f734a385-5d96-4a4d-97c3-358b8e0cb5e0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661545668322	Marionette	INFO	Stopped listening on port 36933
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661545750135	geckodriver	INFO	Listening on 127.0.0.1:58821
+1661545750140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57579" "-no-remote" "-profile" "/tmp/rust_mozprofileq07HiK"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661545750607	Marionette	INFO	Marionette enabled
+1661545750609	Marionette	INFO	Listening on port 41021
+WebDriver BiDi listening on ws://localhost:57579
+1661545750693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileq07HiK/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:57579/devtools/browser/b42737da-b47c-4f42-91c7-149496754a02
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+1661545778338	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661545781175	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661545788362	Marionette	INFO	Stopped listening on port 41021
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661545813982	geckodriver	INFO	Listening on 127.0.0.1:33019
+1661545814488	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38207" "-no-remote" "-profile" "/tmp/rust_mozprofileWzKBKq"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661545814979	Marionette	INFO	Marionette enabled
+1661545814981	Marionette	INFO	Listening on port 40379
+WebDriver BiDi listening on ws://localhost:38207
+1661545815066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWzKBKq/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:38207/devtools/browser/2f690804-23b7-4b73-8472-856b535e112c
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661545819480	Marionette	INFO	Stopped listening on port 40379
+1661545833014	geckodriver	INFO	Listening on 127.0.0.1:47083
+1661545833520	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54255" "-no-remote" "-profile" "/tmp/rust_mozprofileE6aNxF"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661545834036	Marionette	INFO	Marionette enabled
+1661545834039	Marionette	INFO	Listening on port 35031
+WebDriver BiDi listening on ws://localhost:54255
+1661545834229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileE6aNxF/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:54255/devtools/browser/1ee86dbb-2568-4d14-ba9d-403320ecc7d8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+1661545971104	geckodriver	INFO	Listening on 127.0.0.1:32817
+1661545971108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46741" "-no-remote" "-profile" "/tmp/rust_mozprofileL0Zmvl"
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661545971538	Marionette	INFO	Stopped listening on port 35031
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661545971591	Marionette	INFO	Marionette enabled
+1661545971594	Marionette	INFO	Listening on port 43093
+WebDriver BiDi listening on ws://localhost:46741
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1661545971686	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL0Zmvl/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46741/devtools/browser/43bd6fdf-9a64-4330-8f8a-46ecf044843f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661546042765	Marionette	INFO	Stopped listening on port 43093
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661546045497	geckodriver	INFO	Listening on 127.0.0.1:56033
+1661546046002	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41879" "-no-remote" "-profile" "/tmp/rust_mozprofileuSAGZO"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661546046494	Marionette	INFO	Marionette enabled
+1661546046497	Marionette	INFO	Listening on port 37361
+WebDriver BiDi listening on ws://localhost:41879
+1661546046580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuSAGZO/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41879/devtools/browser/476d8e68-3872-465a-a6fc-6a408a483861
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+1661546167317	geckodriver	INFO	Listening on 127.0.0.1:59967
+1661546167321	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50443" "-no-remote" "-profile" "/tmp/rust_mozprofileGuTZ2I"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661546167823	Marionette	INFO	Marionette enabled
+1661546167825	Marionette	INFO	Listening on port 43949
+WebDriver BiDi listening on ws://localhost:50443
+1661546168017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGuTZ2I/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:50443/devtools/browser/1742c8a3-efb6-4755-8df8-9d952ba9628a
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661546173454	Marionette	INFO	Stopped listening on port 37361
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661546197026	Marionette	INFO	Stopped listening on port 43949
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661546235989	geckodriver	INFO	Listening on 127.0.0.1:45061
+1661546236495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56713" "-no-remote" "-profile" "/tmp/rust_mozprofiletnDzJ5"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661546236982	Marionette	INFO	Marionette enabled
+1661546236986	Marionette	INFO	Listening on port 35453
+WebDriver BiDi listening on ws://localhost:56713
+1661546237069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletnDzJ5/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:56713/devtools/browser/c8022907-42f7-488d-88e9-3bb2076ee697
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+1661546319902	geckodriver	INFO	Listening on 127.0.0.1:59983
+1661546320407	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39009" "-no-remote" "-profile" "/tmp/rust_mozprofileMBGAUf"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661546320884	Marionette	INFO	Marionette enabled
+1661546320887	Marionette	INFO	Listening on port 39859
+WebDriver BiDi listening on ws://localhost:39009
+1661546320974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMBGAUf/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:39009/devtools/browser/8918927a-0f24-429c-8a2f-7d220b660b7c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661546334289	Marionette	INFO	Stopped listening on port 35453
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661546345066	Marionette	INFO	Stopped listening on port 39859
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661546361961	geckodriver	INFO	Listening on 127.0.0.1:58815
+1661546361966	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40215" "-no-remote" "-profile" "/tmp/rust_mozprofileC4YEQc"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661546362478	Marionette	INFO	Marionette enabled
+1661546362481	Marionette	INFO	Listening on port 40517
+WebDriver BiDi listening on ws://localhost:40215
+1661546362672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileC4YEQc/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:40215/devtools/browser/c80fd16d-533b-4898-80ad-130c4defde4e
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661546364707	Marionette	INFO	Stopped listening on port 40517
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 60: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1661546366591	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+1661546370008	geckodriver	INFO	Listening on 127.0.0.1:60905
+1661546370514	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41071" "-no-remote" "-profile" "/tmp/rust_mozprofile3QT22E"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661546371001	Marionette	INFO	Marionette enabled
+1661546371004	Marionette	INFO	Listening on port 41193
+WebDriver BiDi listening on ws://localhost:41071
+1661546371089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3QT22E/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41071/devtools/browser/e52d52ed-e522-427d-9a32-c96a8bdad428
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661546395362	Marionette	INFO	Stopped listening on port 41193
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661546501038	geckodriver	INFO	Listening on 127.0.0.1:60327
+1661546501042	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35267" "-no-remote" "-profile" "/tmp/rust_mozprofileEGUlkW"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661546501513	Marionette	INFO	Marionette enabled
+1661546501516	Marionette	INFO	Listening on port 43021
+WebDriver BiDi listening on ws://localhost:35267
+1661546501600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEGUlkW/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:35267/devtools/browser/4f6453c1-7521-464e-bc6a-9bd75be6e442
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661546551222	Marionette	INFO	Stopped listening on port 43021
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661546566919	geckodriver	INFO	Listening on 127.0.0.1:52193
+1661546567423	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45075" "-no-remote" "-profile" "/tmp/rust_mozprofilewvIeVV"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661546567942	Marionette	INFO	Marionette enabled
+1661546567944	Marionette	INFO	Listening on port 37411
+WebDriver BiDi listening on ws://localhost:45075
+1661546568137	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewvIeVV/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:45075/devtools/browser/643ca3d2-9698-4800-9e57-5f219516c3ea
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+1661546899146	geckodriver	INFO	Listening on 127.0.0.1:37055
+1661546899150	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46583" "-no-remote" "-profile" "/tmp/rust_mozprofileYg3GMz"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1661546899634	Marionette	INFO	Marionette enabled
+1661546899637	Marionette	INFO	Listening on port 35971
+WebDriver BiDi listening on ws://localhost:46583
+1661546899723	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYg3GMz/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:46583/devtools/browser/436cc391-828c-4ccf-9cd7-e577c8efb407
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661546903411	Marionette	INFO	Stopped listening on port 37411
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://ww1.johnsoncountyiowa.gov."
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1661547103370	Marionette	INFO	Stopped listening on port 35971
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
