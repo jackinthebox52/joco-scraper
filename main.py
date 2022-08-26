@@ -9,6 +9,9 @@ from selenium.webdriver.common.by import By
 
 PSQLUSER = os.environ['PSQLUSER']
 PSQLPASS = os.environ['PSQLPASS']
+PSQLHOST = os.environ['PSQLHOST']
+PSQLDB = os.environ['PSQLDB']
+PSQLPORT = os.environ['PSQLPORT']
 driver = webdriver.Firefox()
 reader = easyocr.Reader(['en'])
 db_conn = None
@@ -16,7 +19,7 @@ db_conn = None
 def init():
     try:
         global db_conn
-        db_conn = psycopg2.connect(database="roster", user="jack", password="", host="10.0.0.5", port="5432")
+        db_conn = psycopg2.connect(database=PSQLDB, user=PSQLUSER, password=PSQLPASS, host=PSQLHOST, port=PSQLPORT)
         print('Connected to databse')
     except Exception as e:
         print(e)
