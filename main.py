@@ -1,18 +1,16 @@
 from time import sleep
+import io, os, re, base64, datetime
 from PIL import Image
-import re
 import numpy as np
-import io
 import easyocr
-import base64
 import psycopg2
-import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+PSQLUSER = os.environ['PSQLUSER']
+PSQLPASS = os.environ['PSQLPASS']
 driver = webdriver.Firefox()
 reader = easyocr.Reader(['en'])
-
 db_conn = None
 
 def init():
